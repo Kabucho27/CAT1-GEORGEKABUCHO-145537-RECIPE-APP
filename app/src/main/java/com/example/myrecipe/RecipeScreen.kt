@@ -74,8 +74,8 @@ private fun RecipeContent(recipe: Recipe, containerHeight: Dp) {
         //TODO
         Title(recipe = recipe)
         RecipeProperty(stringResource(R.string.meal_type), recipe.meal )
+        RecipeProperty(stringResource(R.string.serves), recipe.serves)
         RecipeProperty(stringResource(R.string.describe), recipe.description)
-
         Spacer(Modifier.height((containerHeight - (-1300).dp)))
     }
 }
